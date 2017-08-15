@@ -12,7 +12,7 @@ __email__ = "xantalion@mail.ru"
 
 import sys
 import argparse
-
+            
 # Переводим число в другую систему исчисления 2, 8, 16, 10
 def tns(n, ins, outs):
     n = n.replace(" ", "")
@@ -67,4 +67,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
